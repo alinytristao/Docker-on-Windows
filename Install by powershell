@@ -1,0 +1,9 @@
+PS C:\Users\Administrator> 
+
+
+
+Id CommandLine                                                                                                     
+  -- -----------                                                                                                     
+   1 Install-Module -Name DockerMsftProvider -Repository PSGallery -Force                                            
+   2 Install-Package -Name docker -ProviderName DockerMsftProvider                                                   
+   3 docker --version                                                                                                  
